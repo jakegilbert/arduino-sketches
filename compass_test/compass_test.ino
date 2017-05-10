@@ -43,5 +43,4 @@ void loop(){
   headingFiltered = headingFiltered*0.85 + headingDegrees*0.15;
   //Sending the heading value through the Serial Port to Processing IDE
   Serial.println(headingFiltered);
-
 }
